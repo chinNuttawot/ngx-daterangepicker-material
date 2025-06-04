@@ -174,6 +174,9 @@ export class DaterangepickerComponent implements OnInit, OnChanges {
   singleDatePicker = false;
 
   @Input()
+  hideCalendarRight = false;
+
+  @Input()
   showDropdowns = false;
 
   @Input()
